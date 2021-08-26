@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="Test"><!-- 매퍼 네임스페이스명 Bbs 지정 -->
+<insert id="test_in">
+insert into test_sample (bbs_no,bbs_title,bbs_cont) 
+values(test_seq.nextval, #{bbs_title}, #{bbs_cont})
+</insert>
+
+</mapper>
