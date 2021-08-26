@@ -19,7 +19,7 @@
 <%--메뉴바 --%>
 <nav>
 <ul class="main">
-	<li><a href="#">여행</a></li>
+	<li><a href="travel">여행</a></li>
 	<li><a>홈</a>
 	<ul class="sub">
 		<li><a href="#">인기</a></li>

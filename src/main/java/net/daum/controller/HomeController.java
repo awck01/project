@@ -40,4 +40,35 @@ public class HomeController {
 		return "main";
 	}
 	
+	@RequestMapping("/travel")
+	public String travel() {
+		return "travel/travel_main";
+	}
+	
+	@RequestMapping("/district")
+	public String district() {
+		return "travel/district_1";
+	}
+	
+	@RequestMapping("/concert")
+	public String concert() {
+		return "travel/concert_1";
+	}
+	
+	@RequestMapping("/season")
+	public String season() {
+		return "travel/season_1";
+	}
+	
+	@RequestMapping("/success")
+	public String success() {
+		return "travel/success";
+	}
+	
+	@RequestMapping("/ticketing")
+	public String ticketing() {
+		return "travel/ticketing_1";
+	}
+	
+	
 }

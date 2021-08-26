@@ -282,7 +282,6 @@ public class BbsController {
 			}
 			return "redirect:/bbs_list?page="+page;
 		}
-				
 		
 		return null;
 	}
