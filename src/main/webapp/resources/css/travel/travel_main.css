@@ -1,19 +1,23 @@
 @charset "UTF-8";
 
-*{
-  margin:0; padding:0;
+body{
+	background-color:white; /* 본문 배경색*/
+	margin:0px; /*마진 초기화*/
+	padding:0px; /*패딩 초기화*/
+	font-size:1em; /*본문 글씨크기*/
+	line-height:1.2em; /*줄높이 : 기본값 1.2em*/
+	color:black; /*글씨색*/
 }
 
 #wrap{
-	max-width:1200px;
+	max-width:1100px;
 	margin:0 auto;
 }
 .section input[id*="slide"]{
 	display:none;
 }
 .section .slidewrap{
-	max-width:1200px;
-	margin:0 auto;
+	max-width:1100px;
 	overflow:hidden;
 }
 
@@ -26,6 +30,8 @@
 .section .slidelist{
 	white-space:nowrap;
 	font-size:0;
+	margin:0px;
+	padding:0px;
 }
 
 .section .slidelist li{
@@ -69,7 +75,7 @@
 .section [id="slide03"]:checked ~ .slidewrap .slidelist li{transform:translateX(-200%);}
  
 #district_tab{
-	max-width:1200px;
+	max-width:1100px;
 	margin:0 auto;
 }
 
@@ -157,7 +163,7 @@
 }
 
 .tab_cont{
-	max-width:1200px;
+	max-width:1100px;
 	max-height:600px;
 	margin:0 auto;
 	display:none;
@@ -230,7 +236,7 @@
 }
 
 #season_tab{
-	max-width:1200px;
+	max-width:1100px;
 	margin:0 auto;
 	margin-bottom:10px;
 }
@@ -286,7 +292,7 @@
 }
 
 .s_cont{
-	max-width:1200px;
+	max-width:1100px;
 	max-height:600px;
 	margin:0 auto;
 	display:none;
@@ -306,7 +312,7 @@
 }
 
 #concert_tab{
-	max-width:1200px;
+	max-width:1100px;
 	margin:0 auto;
 	margin-bottom:10px;
 }
@@ -356,7 +362,7 @@
 }
 
 .c_cont{
-	max-width:1200px;
+	max-width:1100px;
 	max-height:600px;
 	margin:0 auto;
 	display:none;
